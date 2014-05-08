@@ -1,0 +1,40 @@
+.contentIndex{
+    padding: 0px; 
+    overflow-x: visible;
+}
+
+#content{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.areaFirmaClass{
+    background-color:white;
+}
+
+#gridA{
+    padding-right: 10px !important;
+}
+
+/*Se calcula dinámicamente segun la pantalla*/
+.btnDig{
+    width: 20px;
+    height: 20px;
+}
+
+.btnBorrar{
+    height: 20px;
+}
+
+.headerClass{
+    font-size: 1.2em !important;
+    text-align: center;
+}
+
+.btnAceptarClass{
+    float:left;
+}
+
+.btnCancelarClass{
+    float: right;
+}

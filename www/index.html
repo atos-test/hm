@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+	
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mobile-1.4.2.min.js"></script>
+	<script type="text/javascript" src="js/jSignature.js"></script>
+	<script type="text/javascript" src="js/base64-binary.js"></script>
+	<script type="text/javascript" src="js/Firma.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.2.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<title>Firma</title>
+</head>
+<body>
+<div id="firmaPage" data-role="page" data-theme="e" >
+	<script type="text/javascript">
+		$(window).load(Firma.load);
+	</script>
+	<div id="header" data-theme="a" data-role="header"  >
+		<div data-role="navbar" data-iconpos="bottom">
+			<ul>
+				<li><a id="btnCancelar" data-icon="delete">Cancelar</a></li>
+				<li><a id="btnBorrar" data-icon="refresh">Borrar</a></li>
+				<li><a id="btnAceptar" data-icon="check">Aceptar</a></li>
+			</ul>
+		</div>
+	</div>
+	<div data-role="content" data-theme="e" class="contentIndex">
+		<div id="areaFirma" class="areaFirmaClass"><!-- height: 428px; width: 315px; -->
+		</div>
+	</div>
+</div>
+</body>
+</html>

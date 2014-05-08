@@ -1,0 +1,24 @@
+c:\ws\hm\platforms\android\ant-gen\net\atos\hartmann\R.java \
+ : c:\ws\hm\platforms\android\res\drawable\icon.png \
+c:\ws\hm\platforms\android\res\drawable-hdpi\icon.png \
+c:\ws\hm\platforms\android\res\drawable-hdpi\ic_launcher.png \
+c:\ws\hm\platforms\android\res\drawable-ldpi\icon.png \
+c:\ws\hm\platforms\android\res\drawable-mdpi\icon.png \
+c:\ws\hm\platforms\android\res\drawable-mdpi\ic_launcher.png \
+c:\ws\hm\platforms\android\res\drawable-xhdpi\icon.png \
+c:\ws\hm\platforms\android\res\drawable-xhdpi\ic_launcher.png \
+c:\ws\hm\platforms\android\res\drawable-xxhdpi\ic_launcher.png \
+c:\ws\hm\platforms\android\res\drawable-xxxhdpi\ic_launcher.png \
+c:\ws\hm\platforms\android\res\values\strings.xml \
+c:\ws\hm\platforms\android\res\xml\config.xml \
+c:\ws\hm\platforms\android\ant-build\res\drawable\icon.png \
+c:\ws\hm\platforms\android\ant-build\res\drawable-hdpi\icon.png \
+c:\ws\hm\platforms\android\ant-build\res\drawable-hdpi\ic_launcher.png \
+c:\ws\hm\platforms\android\ant-build\res\drawable-ldpi\icon.png \
+c:\ws\hm\platforms\android\ant-build\res\drawable-mdpi\icon.png \
+c:\ws\hm\platforms\android\ant-build\res\drawable-mdpi\ic_launcher.png \
+c:\ws\hm\platforms\android\ant-build\res\drawable-xhdpi\icon.png \
+c:\ws\hm\platforms\android\ant-build\res\drawable-xhdpi\ic_launcher.png \
+c:\ws\hm\platforms\android\ant-build\res\drawable-xxhdpi\ic_launcher.png \
+c:\ws\hm\platforms\android\ant-build\res\drawable-xxxhdpi\ic_launcher.png \
+c:\ws\hm\platforms\android\ant-build\AndroidManifest.xml \

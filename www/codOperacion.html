@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.2.min.js"></script>
+        <script type="text/javascript" src="js/codOperacion.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.icons.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.2.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+                
+    </head>
+    <body>
+        <script type="text/javascript">
+            $(window).load(app.initialize);
+        </script>
+        <div data-role="page" id="codePage" data-theme="e" >
+            <div data-theme="a" data-role="header" id="header" data-position="fixed" data-tap-toggle="false" >
+               <label class="headerClass">Introduzca el n&uacute;mero de orden</label>
+            </div>
+
+
+    <!-- INICIO CONTENIDO -->
+            <div data-role="content" data-theme="a" id="content" data-role="true">
+                <div id="gridA" class="ui-grid-a">
+                    <div id="bloqueA" class="ui-block-a">
+                        <div class="ui-grid-b">
+                            <div class="ui-block-a">
+                                <a id="btn1" data-role="button" name="btnDigito" data-inline="true" class="btnDig">1</a>
+                            </div>
+                            <div class="ui-block-b">
+                                <a id="btn2" data-role="button" name="btnDigito" data-inline="true" class="btnDig">2</a>
+                            </div>
+                            <div class="ui-block-c">
+                                <a id="btn3" data-role="button" name="btnDigito" data-inline="true" class="btnDig">3</a>
+                            </div>
+                        </div>
+                        <div class="ui-grid-b">
+                            <div class="ui-block-a">
+                                <a id="btn4" data-role="button" name="btnDigito" data-inline="true" class="btnDig">4</a>
+                            </div>
+                            <div class="ui-block-b">
+                                <a id="btn5" data-role="button" name="btnDigito" data-inline="true" class="btnDig">5</a>
+                            </div>
+                            <div class="ui-block-c">
+                                <a id="btn6" data-role="button" name="btnDigito" data-inline="true" class="btnDig">6</a>
+                            </div>
+                        </div>
+                        <div class="ui-grid-b">
+                            <div class="ui-block-a">
+                                <a id="btn7" data-role="button" name="btnDigito" data-inline="true" class="btnDig">7</a>
+                            </div>
+                            <div class="ui-block-b">
+                                <a id="btn8" data-role="button" name="btnDigito" data-inline="true" class="btnDig">8</a>
+                            </div>
+                            <div class="ui-block-c">
+                                <a id="btn9" data-role="button" name="btnDigito" data-inline="true" class="btnDig">9</a>
+                            </div>
+                        </div>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a" style="width: 33%">
+                                <a id="btnAsterisco" data-role="button" name="btnDigito" data-inline="true" class="btnDig">0</a>
+                            </div>
+                            <div id="bloqueBtn" class="ui-block-b" style="width: 66%">
+                                <a id="btnBorrar" data-role="button" data-icon="arrow-l" name="btnBorrar" data-inline="true" data-iconpos="notext" class=" btnBorrar">Borrar</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div id="bloqueB" class="ui-block-b">
+                        <input type="text" class="clearable" name="name" id="inputCodigo" data-clear-btn="true"/>
+                        <div>
+                            <a id="btnAceptar" data-icon="check" data-role="button" class="btnAceptarClass">Aceptar</a>
+                            <a id="btnCancelar" data-icon="delete" data-role="button" class="btnCancelarClass">Cancelar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
