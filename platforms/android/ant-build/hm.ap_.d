@@ -55,7 +55,6 @@ c:\ws\hm\platforms\android\assets\www\js\jquery-2.1.0.min.js \
 c:\ws\hm\platforms\android\assets\www\js\jquery.mobile-1.4.2.min.js \
 c:\ws\hm\platforms\android\assets\www\js\jSignature.js \
 c:\ws\hm\platforms\android\assets\www\plugins\org.apache.cordova.file \
-c:\ws\hm\platforms\android\assets\www\plugins\org.apache.cordova.file-transfer \
 c:\ws\hm\platforms\android\assets\www\plugins\org.apache.cordova.file\www \
 c:\ws\hm\platforms\android\assets\www\plugins\org.apache.cordova.file\www\android \
 c:\ws\hm\platforms\android\assets\www\plugins\org.apache.cordova.file\www\DirectoryEntry.js \
@@ -76,7 +75,4 @@ c:\ws\hm\platforms\android\assets\www\plugins\org.apache.cordova.file\www\Progre
 c:\ws\hm\platforms\android\assets\www\plugins\org.apache.cordova.file\www\requestFileSystem.js \
 c:\ws\hm\platforms\android\assets\www\plugins\org.apache.cordova.file\www\resolveLocalFileSystemURI.js \
 c:\ws\hm\platforms\android\assets\www\plugins\org.apache.cordova.file\www\android\FileSystem.js \
-c:\ws\hm\platforms\android\assets\www\plugins\org.apache.cordova.file-transfer\www \
-c:\ws\hm\platforms\android\assets\www\plugins\org.apache.cordova.file-transfer\www\FileTransfer.js \
-c:\ws\hm\platforms\android\assets\www\plugins\org.apache.cordova.file-transfer\www\FileTransferError.js \
 c:\ws\hm\platforms\android\ant-build\AndroidManifest.xml \
