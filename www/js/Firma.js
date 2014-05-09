@@ -41,7 +41,7 @@ var Firma= {
 		
     	$("#btnBorrar").on( "vclick", self.initSignature);
 
-    	$("#btnCancelar").off("vclick").on("vclick",function(){
+    	$("#btnSalir").off("vclick").on("vclick",function(){
 			navigator.app.exitApp();
     	});
 

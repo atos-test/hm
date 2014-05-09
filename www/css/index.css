@@ -1,3 +1,7 @@
+body{
+    font-size: 1.2em !important;
+}
+
 .contentIndex{
     padding: 0px; 
     overflow-x: visible;
@@ -32,9 +36,32 @@
 }
 
 .btnAceptarClass{
-    float:left;
+    float:right;
 }
 
 .btnCancelarClass{
-    float: right;
+    float: left;
+}
+.green{
+    background-color: green!important;
+    color: #FFF!important;
+    text-shadow: none!important;
+}
+.red{
+    background-color:red!important;
+    color: #FFF!important;
+    text-shadow: none!important;
+}
+.blue{
+    background-color:#38C;
+    color: #FFF;
+    text-shadow: 0 1px 0 #059;
+}
+html .ui-bar-a .ui-btn{
+    background-color: rgba(0, 0, 0, 0)!important;
+    color: #FFF;
+    text-shadow: none;
+}
+html .ui-bar-a .ui-btn.ui-btn-active {
+    background-color: rgba(0, 0, 0, 0)!important;
 }
