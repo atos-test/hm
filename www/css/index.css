@@ -2,6 +2,14 @@ body{
     font-size: 1.2em !important;
 }
 
+.headerIndex{
+    height: 80px;
+}
+
+.btnHeaderIndex{
+    padding-bottom: 35px;
+}
+
 .contentIndex{
     padding: 0px; 
     overflow-x: visible;
