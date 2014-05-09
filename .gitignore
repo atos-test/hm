@@ -1,0 +1,2 @@
+# archivos que no deben ser tenidos en cuenta por git
+*.properties
