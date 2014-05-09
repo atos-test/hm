@@ -111,8 +111,8 @@ var app = {
 
         //Aqui se incluye toda la lógica de guardar la imagen, cuyo nombre de archivo será $("#inputCodigo").val().png
         $("#btnAceptar").on("vclick", function(){
-			if($("#inputCodigo").val() == ""){
-				alert("Debe escribir el número de orden");
+			if(!/^[a-zA-Z0-9]+$/.test($("#inputCodigo").val())){
+				alert("Escriba un nombre válido. Sólo caracteres alfanuméricos.");
 				return;
 			}
             var nombreArchivo = $("#inputCodigo").val() + self.extension;
